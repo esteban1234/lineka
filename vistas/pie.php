@@ -1,0 +1,3 @@
+<footer>
+<p>Derechos de autor 2018 © |  LINEKA CONSULTORIA INTEGRAL Y SERVICIOS ADMINISTRATIVOS SA DE CV </p>
+</footer>

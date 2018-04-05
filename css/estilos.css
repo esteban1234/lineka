@@ -1,0 +1,348 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*------------------IR ARRIBa------------*/
+
+a.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: #fff;
+    /*background-color: rgb(0, 0, 0, );*/
+    background-color: #ED6A16;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+a.go-top:hover {
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    background-color: black;
+}
+/*----------------INDEX-----------------*/
+.logol{
+    padding: 2% 0%;
+}
+.logo{
+    width: 20%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    border-top: 1px #cfd8dc solid;
+    border-bottom: 1px #cfd8dc solid;
+    padding: 1% 0%;
+}
+nav {
+    text-align: center;
+    
+}
+nav ul a.selector{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #0E7B66;
+    padding: 20px 20px 24px 20px;
+}
+nav ul a.selector:hover{
+    border-bottom: 2px #502565 solid;
+}
+nav ul a#select{
+    border-bottom: 2px #502565 solid;
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #0E7B66;
+    margin-top: 15%;
+}
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+    border: 1px #0E7B66 solid;
+}
+.btn-outline2 {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+    border: 1px #000 solid;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #fff;
+}
+
+.btn-warning.btn-outline {
+    color: #0E7B66;
+}
+
+.btn-danger.btn-outline2 {
+    color: #000;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline2:hover {
+    color: #fff;
+    background: #000;
+    border: 1px #000 solid;
+}
+.banneri{
+    width: 100%;
+    position: relative;
+    height: 650px;
+    background: url('../img/banneri.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    clear: both;
+}
+.fondo{
+     width: 100%;
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+    background-color: rgba( 115, 198, 182, .8);
+}
+.iconos{
+    text-align: center;
+}
+.textpuntos{
+    margin-top: 2%;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+/*.............FOOTER--------------*/
+footer{
+	background: #502565;
+	font-family: 'Oswald', sans-serif;
+	height: 100px;
+	/*font-size: 20px;*/
+	overflow: hidden;
+	clear: both;
+}
+footer p{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 3%;
+	color: #fff;
+}
+
+/*------------------nosotros------------*/
+.bannern{
+    width: 100%;
+    position: relative;
+    height: 413px;
+    background: url('../img/bannern.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+    margin-top: 3%;
+}
+.fondo2{
+     width: 100%;
+    position: relative;
+    height: 413px;
+    overflow: hidden;
+    background-color: rgba( 0, 0, 0, .5);
+}
+.texton{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 5%;
+    width: 60%;
+}
+.boton{
+    text-align: center;
+    margin-top: 3%;
+}
+.textn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 8%;
+}
+/*------------------servicios--------------*/
+.banners{
+    width: 100%;
+    position: relative;
+    height: 413px;
+    background: url('../img/banners.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+    margin-top: 3%;
+}
+.textos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 5%;
+    width: 60%;
+}
+/*--------------------contacto-----------------*/
+.contact{
+    margin-top: 2%;
+}
+ #contact{
+    padding:10px 0 10px;
+  }
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  }
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:#8BC3A3;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+  }
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+
+  .first-box{
+    padding:10px;
+    background:#1D8370;
+}
+.second-box{
+    padding:10px; 
+    background:#502565;
+}
+.third-box{
+    padding:10px;
+    background:#F66;
+}
+.fourth-box{
+    padding:10px;
+    background:#6CC;
+}
