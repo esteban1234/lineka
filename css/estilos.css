@@ -39,6 +39,11 @@ a.go-top:hover {
     border-bottom: 1px #cfd8dc solid;
     padding: 1% 0%;
 }
+
+.openclose{
+    display: none;
+}
+
 nav {
     text-align: center;
     

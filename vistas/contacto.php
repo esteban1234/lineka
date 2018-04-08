@@ -6,6 +6,9 @@
     <figure class="logo">
         <img src="../img/lineka.png" alt="LINEKA" class="img-responsive">
     </figure>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div>  
 </div>
 
 <div class="menu">
@@ -20,30 +23,31 @@
 </div>
 
 <div class="inner contact container">
-          <h1>Formulario de contacto</h1> <br>
-          <p>Si quieres contactar con nosotros o tienes alguna consulta, no dudes en hacerlo.
-¡Estaremos encantados de atenderte!</p><br><br>
+          <h1 class="tit-fc">Formulario de contacto</h1> <br>
+          <p class="subtit-fc">Si quieres contactar con nosotros o tienes alguna consulta, no dudes en hacerlo. ¡Estaremos encantados de atenderte!</p><br><br>
                 <div class="contact-form">
       
-                    <form id="contact-us" method="post" action="#">
+                    <form id="contact-us" method="post" action="#" onSubmit="return false">
         
-                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                        <div class="col-xs-12 col-sm-6 col-md-6 wow animated slideInLeft" data-wow-delay=".5s">
               
-                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre Completo" />
+                            <input type="text" name="name" id="txtNOMBRE" required="required" class="form" placeholder="Nombre Completo" />
 
-                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Correo" />
+                            <input type="email" name="mail" id="txtCORREO" required="required" class="form" placeholder="Correo" />
 
-                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Teléfono" />
+                            <input type="text" name="subject" id="txtTELEFONO" required="required" class="form" placeholder="Teléfono" />
                         </div>
            
-                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                        <div class="col-xs-12 col-sm-6 col-md-6 wow animated slideInRight" data-wow-delay=".5s">
              
-                            <textarea name="message" id="message" class="form textarea"  placeholder="Comentario"></textarea>
+                            <textarea name="message" id="txtCOMENTARIO" class="form textarea"  placeholder="Comentario" required="required"></textarea>
                         </div>
+
+                        
                       
                         <div class="relative fullwidth col-xs-12">
-                         
-                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Enviar Mensaje</button> 
+                            <div id="_AJAX_PRE_"></div>
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold" onclick="sendCORREO()">Enviar Mensaje</button> 
                         </div>
                         
                         <div class="clear"></div>
@@ -62,24 +66,19 @@
 
 
             <div class="container" style="padding-top: 5%; padding-bottom: 5%;">
-<h1>Información de contacto</h1><br>
+<h1 class="tit-ic">Información de contacto</h1><br>
   <div class="row text-center">
-    <div class="col-sm-3 col-md-offset-2 col-xs-6 first-box">
+    <div class="col-sm-4 col-md-4 col-lg-3 col-lg-offset-2 col-xs-12 first-box">
         <h1><span class="glyphicon fas fa-phone-volume"></span></h1>
         <h3>Teléfono</h3>
         <p>PENDIENTE</p><br>
     </div>
-    <!-- <div class="col-sm-3 col-xs-6 second-box">
-        <h1><span class="glyphicon glyphicon-home"></span></h1>
-        <h3>Dirección</h3>
-        <p>1036 Gulshan Road</p><br>
-    </div> -->
-    <div class="col-sm-3 col-xs-6 third-box">
+    <div class="col-sm-4 col-md-4 col-lg-3 col-xs-12 third-box">
         <h1><span class="glyphicon fas fa-envelope"></span></h1>
         <h3>E-mail</h3>
         <p>info@consultorialineka.com</p><br>
     </div>
-    <div class="col-sm-3 col-xs-6 fourth-box">
+    <div class="col-sm-4 col-md-4 col-lg-3 col-xs-12 fourth-box">
       <h1><span class="glyphicon fas fa-clock"></span></h1>
         <h3>Horario</h3>
         <p>Lunes a Viernes de 9am a 6pm</p><br>
@@ -92,7 +91,6 @@
 <script src="../js/sendCORREO.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/arriba.js"></script>
-<script src="../js/funciondthc.js"></script>
 <script src="../js/menu.js"></script>
 <script src="../js/sendCORREO.js"></script>
 </body>

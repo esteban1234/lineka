@@ -6,6 +6,9 @@
     <figure class="logo">
         <img src="../img/lineka.png" alt="LINEKA" class="img-responsive">
     </figure>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div>  
 </div>
 
 <div class="menu">
@@ -32,12 +35,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="../img/consultores.jpg"
-            class="img-responsive">
+            <img src="../img/consultores.jpg" class="img-responsive">
           </div>
           <div class="col-md-6">
-            <!-- <h1>A title</h1>
-            <h3>A subtitle</h3> -->
             <p class="textn">LINEKA CONSULTORIA INTEGRAL Y SERVICIOS ADMINISTRATIVOS  es una firma que brinda asesoría en temas legales y financieros a personas naturales y jurídicas; sus socios gestores poseen experiencia, en cada uno de sus campos.  Nuestro principal objetivo es  ofrecer soluciones  que garanticen  el crecimiento y la rentabilidad de las empresas. <br><br>
 
             Los consultores de LINEKA están especializados en servicios de asesoría y consultoría, ademas poseen  una visión holística de los asuntos empresariales que les permiten ofrecerle al cliente soluciones integrales de acuerdo a sus necesidades.
@@ -52,26 +52,26 @@
       <div class="fondo">
           <div class="section" style="padding: 5% 0%;">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row cont-cu">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="iconos">
                 <i class="fas fa-cogs fa-5x"></i>
             </div>
-            <h1 class="text-center">MISION</h1>
+            <h1 class="text-center tit-mvv">MISION</h1>
             <p class="textpuntos">Dar solución a sus problemas legales garantizando el desarrollo de su negocio de acuerdo con las leyes. Le asesoramos para prevenir conflictos con la Hacienda Pública y solucionamos eficientemente los que puedan surgir. Establecemos la mejor opción legal para sus inversiones.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="iconos">
                 <i class="fas fa-chart-line fa-5x"></i>
             </div>
-            <h1 class="text-center">VISION</h1>
+            <h1 class="text-center tit-mvv">VISION</h1>
             <p class="textpuntos">Brindar al cliente una solución práctica y profesional, relacionada con el problema que presenta, dentro de los parámetros legales existentes en nuestra legislación o legislaciones.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-12 col-md-4">
             <div class="iconos">
                 <i class="far fa-handshake fa-5x"></i>
             </div>
-              <h1 class="text-center">VALORES</h1>
+              <h1 class="text-center tit-mvv">VALORES</h1>
             <p class="textpuntos">
               Profesionalidad: Trabajamos de forma transparente y fundamentada. <br>
               

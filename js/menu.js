@@ -1,18 +1,18 @@
-$(function() {
+$(document).ready(main);
+
     var contador = 1;
-    var pull = $('.op-menu');
-    menu = $('nav');
 
-    $(pull).on('click', function(e) {
-        e.preventDefault();
-        if (contador == 1) {
-           menu.slideToggle(1000);
-            contador = 0;
-        } else {
-            menu.slideToggle(1000);
-            // abrir.slideToggle(100);
-            contador = 1;
-        }
-    });
-
-});
+    function main() {
+        $('.openclose').mouseenter(function() {
+            if (contador == 1) {
+               
+                $("nav").show('slow');
+               
+                contador = 0;
+            } else {
+                contador = 1;
+              
+               $("nav").hide('slow');
+            }
+        });
+    }

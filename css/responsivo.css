@@ -1,0 +1,614 @@
+@media screen and (max-width: 480px){
+
+/*******************INCIA INDEX****************************/
+	.logo{
+		width: 50%;
+	}
+
+	nav{
+		width: 100%;
+		display: none;
+		overflow-x: hidden;
+	}
+
+	nav ul .selector{
+		display: block;
+	}
+
+	.openclose, nav{
+		position: fixed;
+		z-index: 2;
+		background: #fff;
+	}
+
+	.openclose{
+		position: fixed;
+		background: #fff;
+		cursor: pointer;
+		display: block;
+		top: 5px;
+	}
+
+	.openclose i{
+		padding: 8px;
+		font-size: 25px;
+		color: #0E7B66;
+	}
+
+	.texto{
+		margin: 0px !important; 
+		font-size: 20px;
+		text-align: justify;
+	}
+	
+	.cont-texbtn{
+		overflow:hidden;
+		text-align: center;
+	}
+
+	.btn-contacto{
+		float: none !important;
+		margin: 10px auto !important;
+		display: block;
+		width: 170px;
+	}
+
+	.banneri, .fondo, .bannern, .fondo2, .banners{
+		height: 100%;
+	}
+
+	.textpuntos, .textn{
+		text-align: justify;
+	}
+
+	.boton, .delete-br{
+		display: none;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.cont-cu .col-xs-12{
+		margin-bottom: 10px;
+		border-bottom: .5px solid #fff;
+	}
+	
+
+	.tit-mvv{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+/*******************END INDEX******************************/
+
+/*******************INCIA NOSOTROS****************************/
+	.texton{
+		/*border: 2px solid red;*/
+		width: 90%;
+		text-align: justify;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+/*******************END NOSOTROS******************************/
+
+/*******************INCIA SERVICIOS****************************/
+	.textos{
+		/*border: 2px solid red;*/
+		font-size: 25px;
+		width: 90%;
+		margin-bottom: 12px;
+	}
+
+	.tit-s{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 0px;
+	}
+
+	.subtit-s, .subtit-aaa{
+		text-align: justify;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-aaa{
+		/*border: 2px solid red;*/
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px !important;
+	}
+
+	.subtit-aa{
+		text-align: center;
+	}
+/*******************END SERVICIOS******************************/
+
+
+/*******************INCIA CONTACTO****************************/
+	.tit-fc, .tit-ic{
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+	}
+	
+
+	.subtit-fc{
+		text-align: justify;
+	}
+	
+
+/*******************END CONTACTO******************************/
+
+/*******************INCIA FOOTER****************************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 16px;
+		font-weight: bold;
+    	padding: 0px 10px;
+	}
+/*******************END FOOTER******************************/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	/*******************INCIA INDEX****************************/
+	.logo{
+		width: 35%;
+	}
+
+	nav{
+		width: 100%;
+		display: none;
+		overflow-x: hidden;
+	}
+
+	nav ul .selector{
+		display: block;
+	}
+
+	.openclose, nav{
+		position: fixed;
+		z-index: 2;
+		background: #fff;
+	}
+
+	.openclose{
+		position: fixed;
+		background: #fff;
+		cursor: pointer;
+		display: block;
+		top: 5px;
+	}
+
+	.openclose i{
+		padding: 8px;
+		font-size: 25px;
+		color: #0E7B66;
+	}
+
+	.texto{
+		margin: 0px !important; 
+		font-size: 20px;
+		text-align: justify;
+	}
+	
+	.cont-texbtn{
+		overflow:hidden;
+		text-align: center;
+	}
+
+	.btn-contacto{
+		float: none !important;
+		margin: 10px auto !important;
+		display: block;
+		width: 170px;
+	}
+
+	.banneri, .fondo, .bannern, .fondo2, .banners{
+		height: 100%;
+	}
+
+	.textn{
+		text-align: justify;
+	}
+
+	.boton, .delete-br{
+		display: none;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.cont-cu .col-xs-12{
+		margin-bottom: 10px;
+		border-bottom: .5px solid #fff;
+	}
+	
+
+	.tit-mvv{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+/*******************END INDEX******************************/
+
+/*******************INCIA NOSOTROS****************************/
+	.texton{
+		width: 90%;
+		text-align: justify;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+/*******************END NOSOTROS******************************/
+
+/*******************INCIA SERVICIOS****************************/
+	.textos{
+		font-size: 25px;
+		width: 90%;
+		margin-bottom: 12px;
+	}
+
+	.tit-s{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 0px;
+	}
+
+	.subtit-s{
+		text-align: justify;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-aaa{
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px !important;
+	}
+
+	.subtit-aa, .subtit-aaa, .textpuntos{
+		text-align: center;
+	}
+/*******************END SERVICIOS******************************/
+
+
+/*******************INCIA CONTACTO****************************/
+	.tit-fc, .tit-ic{
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+	}
+	
+
+	.subtit-fc{
+		text-align: justify;
+	}
+	
+
+/*******************END CONTACTO******************************/
+
+/*******************INCIA FOOTER****************************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 16px;
+		font-weight: bold;
+    	padding: 0px 10px;
+	}
+/*******************END FOOTER******************************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+/*******************INCIA INDEX****************************/
+	.logo{
+		width: 25%;
+	}
+
+	nav{
+		width: 100%;
+		display: none;
+		overflow-x: hidden;
+	}
+
+	nav ul .selector{
+		display: block;
+	}
+
+	.openclose, nav{
+		position: fixed;
+		z-index: 2;
+		background: #fff;
+	}
+
+	.openclose{
+		position: fixed;
+		background: #fff;
+		cursor: pointer;
+		display: block;
+		top: 5px;
+	}
+
+	.openclose i{
+		padding: 8px;
+		font-size: 25px;
+		color: #0E7B66;
+	}
+
+	.texto{
+		margin: 0px !important; 
+		font-size: 20px;
+		text-align: justify;
+	}
+	
+	.cont-texbtn{
+		overflow:hidden;
+		text-align: center;
+	}
+
+	.btn-contacto{
+		float: none !important;
+		margin: 10px auto !important;
+		display: block;
+		width: 170px;
+	}
+
+	.banneri, .fondo, .bannern, .fondo2, .banners{
+		height: 100%;
+	}
+
+	.textn{
+		text-align: justify;
+	}
+
+	.boton, .delete-br{
+		display: none;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.cont-cu .col-xs-12{
+		margin-bottom: 10px;
+	}
+	
+
+	.tit-mvv{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+/*******************END INDEX******************************/
+
+/*******************INCIA NOSOTROS****************************/
+	.texton{
+		width: 90%;
+		text-align: justify;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+/*******************END NOSOTROS******************************/
+
+/*******************INCIA SERVICIOS****************************/
+	.textos{
+		font-size: 25px;
+		width: 90%;
+		margin-bottom: 12px;
+	}
+
+	.tit-s{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 0px;
+	}
+
+	.subtit-s{
+		text-align: justify;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-aaa{
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px !important;
+	}
+
+	.subtit-aa, .subtit-aaa, .textpuntos{
+		text-align: center;
+	}
+/*******************END SERVICIOS******************************/
+
+
+/*******************INCIA CONTACTO****************************/
+	.tit-fc, .tit-ic{
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+	}
+	
+
+	.subtit-fc{
+		text-align: justify;
+	}
+	
+
+/*******************END CONTACTO******************************/
+
+/*******************INCIA FOOTER****************************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 16px;
+		font-weight: bold;
+    	padding: 0px 10px;
+	}
+/*******************END FOOTER******************************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	/*******************INCIA INDEX****************************/
+	/*.logo{
+		width: 25%;
+	}
+
+	nav{
+		width: 100%;
+		display: none;
+		overflow-x: hidden;
+	}
+
+	nav ul .selector{
+		display: block;
+	}
+
+	.openclose, nav{
+		position: fixed;
+		z-index: 2;
+		background: #fff;
+	}
+
+	.openclose{
+		position: fixed;
+		background: #fff;
+		cursor: pointer;
+		display: block;
+		top: 5px;
+	}
+
+	.openclose i{
+		padding: 8px;
+		font-size: 25px;
+		color: #0E7B66;
+	}
+*/
+	.texto{
+		margin: 0px !important; 
+		font-size: 20px;
+		text-align: justify;
+	}
+	
+	.cont-texbtn{
+		overflow:hidden;
+		text-align: center;
+	}
+
+	.btn-contacto{
+		float: none !important;
+		margin: 10px auto !important;
+		display: block;
+		width: 170px;
+	}
+
+	.banneri, .fondo, .bannern, .fondo2, .banners{
+		height: 100%;
+	}
+
+	.textn{
+		text-align: justify;
+	}
+
+	.boton, .delete-br{
+		display: none;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.cont-cu .col-xs-12{
+		margin-bottom: 10px;
+	}
+	
+
+	.tit-mvv{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+/*******************END INDEX******************************/
+
+/*******************INCIA NOSOTROS****************************/
+	.texton{
+		width: 90%;
+		text-align: justify;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+/*******************END NOSOTROS******************************/
+
+/*******************INCIA SERVICIOS****************************/
+	.textos{
+		font-size: 25px;
+		width: 90%;
+		margin-bottom: 12px;
+	}
+
+	.tit-s{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 0px;
+	}
+
+	.subtit-s{
+		text-align: justify;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-aaa{
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px !important;
+	}
+
+	.subtit-aa, .subtit-aaa, .textpuntos{
+		text-align: center;
+	}
+/*******************END SERVICIOS******************************/
+
+
+/*******************INCIA CONTACTO****************************/
+	.tit-fc, .tit-ic{
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+	}
+	
+
+	.subtit-fc{
+		text-align: justify;
+	}
+	
+
+/*******************END CONTACTO******************************/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

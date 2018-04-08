@@ -6,6 +6,9 @@
     <figure class="logo">
         <img src="img/lineka.png" alt="LINEKA" class="img-responsive">
     </figure>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div>  
 </div>
 
 <div class="menu">
@@ -22,11 +25,11 @@
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6 cont-texbtn">
             <p class="texto">Ofrecemos soluciones que garanticen el crecimiento y la rentabilidad de las empresas.</p>
               <a style="margin-top: 3%; margin-right: 5%;" href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg pull-right btn-contacto">CONTACTANOS</a>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6 cont-imgindex">
             <img src="img/banner4.jpg" class="img-responsive" >
           </div>
         </div>
@@ -37,47 +40,48 @@
       <div class="fondo">
           <div class="section" style="padding: 5% 0%;">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
+        <div class="row cont-cu">
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="iconos">
                 <i class="fas fa-american-sign-language-interpreting fa-5x"></i>
             </div>
             <p class="textpuntos">Realizamos formación especializada con las últimas tecnologías sobre las áreas de actuación de nuestro despacho.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="iconos">
                 <i class="fas fa-briefcase fa-5x"></i>
             </div>
             <p class="textpuntos">Adaptado a las Nuevas Tecnologías, sus requerimientos no tendran limites.</p>
           </div>
-          <div class="col-md-3">
+           <div class="clearfix visible-sm"></div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="iconos">
                 <i class="far fa-address-card fa-5x"></i>
             </div>
             <p class="textpuntos">Integrado por un equipo altamente cualificado de profesionales que gozan de una larga trayectoria profesional y docente.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="iconos">
                 <i class="fas fa-balance-scale fa-5x"></i>
             </div>
             <p class="textpuntos">Estamos especializados por áreas de actuación en Derecho Fiscal, Derecho de las Nuevas Tecnologías de la Información y Comunicación (TIC) y Derecho Mercantil, Energético e Internacional de los Negocios.</p>
           </div>
-        </div> <br><br>
+        </div> <br class="delete-br"><br class="delete-br">
 
-        <div class="row">
-          <div class="col-md-3 col-md-offset-2">
+        <div class="row cont-cu">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-2">
             <div class="iconos">
                 <i class="far fa-edit fa-5x"></i>
             </div>
             <p class="textpuntos">Garantizamos la calidad del trabajo.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="iconos">
                 <i class="fas fa-dollar-sign fa-5x"></i>
             </div>
             <p class="textpuntos">Ofrecemos Primera Consulta Gratuita y facilidades de pago.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="iconos">
                 <i class="fas fa-users fa-5x"></i>
             </div>
