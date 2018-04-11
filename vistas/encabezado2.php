@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	
+	<meta name="google-site-verification" content="Ms4yewC2EkKsOmRdAVsET2KzilV1vq_w9IfMgroefus" />
 	<link rel="icon" type="image/png" href="../img/favicon.png" />
 	<title>LINEKA CONSULTORIA INTEGRAL Y SERVICIOS ADMINISTRATIVOS</title>
 	 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
